@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Koulu\\Gaems_Backend\\Assignement_1\\Gaems_Backend.csproj": {}
+  },
+  "projects": {
+    "C:\\Koulu\\Gaems_Backend\\Assignement_1\\Gaems_Backend.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Koulu\\Gaems_Backend\\Assignement_1\\Gaems_Backend.csproj",
+        "projectName": "Gaems_Backend",
+        "projectPath": "C:\\Koulu\\Gaems_Backend\\Assignement_1\\Gaems_Backend.csproj",
+        "packagesPath": "C:\\Users\\jokke\\.nuget\\packages\\",
+        "outputPath": "C:\\Koulu\\Gaems_Backend\\Assignement_1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jokke\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "NewtonSoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
